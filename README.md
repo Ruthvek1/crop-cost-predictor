@@ -138,10 +138,11 @@ A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance m
 |--------|-----------|------|-------------|
 | XGBoost Classifier | 53.14% | – | Struggled with multi-class boundaries. |
 | **Support Vector Classifier (Best)** | **70.9%** | **0.612** | Robust and stable performance. |
-
+<p align="center">
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/3a138476-1732-4b90-a519-c8dcd17727de" />
 
 *Caption: Fig 8.1. ROC Curves for SVC*
+</p>
 
 ### 4.3 Clustering Analysis (Farm Archetypes)
 
@@ -151,28 +152,28 @@ A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance m
 |--------|--------|-----------|
 | K-Means (K=4) | Silhouette = 0.348 | Revealed distinct “farm archetypes.” |
 | DBSCAN | – | Useful for anomaly detection (outliers). |
-
+<p align="center">
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/0b30b63a-dcbd-4cfd-b134-cab83b221061" />
 
 *Caption: Fig 11.1. DBSCAN Clustering and Outlier Detection*
-
----
+</p>
 
 ## 5. Application Development (Streamlit)
 
 ### 5.1 Predictive Tools
 
 The **“Predict Future Cost”** page integrates the **XGBoost Regressor**, enabling future cost forecasts (e.g., for 2026).
-
+<p align="center">
 <img width="700" height="400" alt="Screenshot 2025-11-12 at 7 37 27 PM" src="https://github.com/user-attachments/assets/b35e82d4-4db6-40d3-a34d-d952446319a9" />
 
 *Caption: Fig 13.1. Future Cost Prediction Interface*
 
+</p>
 ### 5.2 Advanced Analytical Features
 
 #### 🧩 “What-If” Scenario Analysis
 Allows users to modify input parameters (e.g., fertilizer prices) via sliders to instantly recompute total costs.
-
+<p align="center">
 <img width="1000" height="522" alt="Screenshot 2025-11-12 at 7 40 33 PM" src="https://github.com/user-attachments/assets/243d7f99-65d5-4da6-877d-63cf1037f522" />
 
 *Caption: Fig 13.2. What-If Scenario Analysis Tool*
@@ -183,13 +184,13 @@ Combines cost prediction with expected yield and market price to calculate:
 - Projected Revenue  
 - Net Profit  
 - Break-even Price  
-
+<p align="center">
 <img width="968" height="555" alt="Screenshot 2025-11-12 at 7 43 50 PM" src="https://github.com/user-attachments/assets/d79420e7-c693-4ab1-abed-d7ef8c58ac4f" />
 
 
 *Caption: Fig 13.3. Profitability Calculator and Financial Outlook*
 
----
+</p>
 
 ## 6. Conclusion and Future Scope
 
