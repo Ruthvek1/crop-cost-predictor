@@ -184,7 +184,7 @@ Combines cost prediction with expected yield and market price to calculate:
 - Net Profit  
 - Break-even Price  
 
-<img width="1068" height="655" alt="Screenshot 2025-11-12 at 7 43 50 PM" src="https://github.com/user-attachments/assets/d79420e7-c693-4ab1-abed-d7ef8c58ac4f" />
+<img width="968" height="555" alt="Screenshot 2025-11-12 at 7 43 50 PM" src="https://github.com/user-attachments/assets/d79420e7-c693-4ab1-abed-d7ef8c58ac4f" />
 
 
 *Caption: Fig 13.3. Profitability Calculator and Financial Outlook*
