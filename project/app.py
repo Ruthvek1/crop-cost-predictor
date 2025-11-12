@@ -15,7 +15,7 @@ st.set_page_config(layout="wide", page_title="Crop Cost Analysis Dashboard")
 
 
 @st.cache_data
-def load_data(path='data/cost-of-cultivation.csv'):
+def load_data(path='project/data/cost-of-cultivation.csv'):
     df = pd.read_csv(path)
     # Basic cleaning
     df['year'] = df['year'].str.split('-').str[0].astype(int)
