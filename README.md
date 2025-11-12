@@ -82,7 +82,6 @@ The `app.py` script serves as the controller, handling navigation and user input
 
 *Caption: Fig 2. Data Preprocessing and Modeling Pipeline*
 </p>
----
 
 ## 3. Exploratory Data Analysis (EDA)
 
@@ -93,7 +92,9 @@ Major agricultural states such as **Maharashtra** and **Uttar Pradesh** contribu
 
 **Key Finding:**  
 While cultivation costs have risen linearly, **net returns** have remained volatile and stagnant.
-
+<p align="center">
+<img width="1460" height="772" alt="image" src="https://github.com/user-attachments/assets/4559d6b1-428a-4e63-85f3-32f8a8d855eb" />
+</p>
 *Caption: Fig 1.1. Trend of Costs and Returns Over Time*
 
 ### 3.2 Multivariate Analysis
