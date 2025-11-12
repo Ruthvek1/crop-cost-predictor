@@ -1,6 +1,6 @@
 # 📊 Project Report: Indian Crop Cost & Profitability Analysis Dashboard
 
-🔗 **Access the Live Project Here:** [View Dashboard]([https://your-live-project-link-here.com](https://crop-cost-predictor-ruthvek.streamlit.app/))
+🔗 **Access the Live Project Here:** [View Dashboard]((https://crop-cost-predictor-ruthvek.streamlit.app/))
 
 **Student Name:** Ruthvek Kannan  
 **PRN:** 22070521031  
