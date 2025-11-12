@@ -39,7 +39,6 @@ The final application empowers users with advanced tools, including a **Future C
 4. [Modeling and Evaluation](#4-modeling-and-evaluation)  
 5. [Application Development (Streamlit)](#5-application-development-streamlit)  
 6. [Conclusion and Future Scope](#6-conclusion-and-future-scope)  
-7. [References](#7-references)
 
 ---
 
@@ -157,7 +156,7 @@ A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance m
 
 *Caption: Fig 11.1. DBSCAN Clustering and Outlier Detection*
 </p>
-
+---
 ## 5. Application Development (Streamlit)
 
 ### 5.1 Predictive Tools
@@ -191,7 +190,7 @@ Combines cost prediction with expected yield and market price to calculate:
 *Caption: Fig 13.3. Profitability Calculator and Financial Outlook*
 
 </p>
-
+---
 ## 6. Conclusion and Future Scope
 
 ### ✅ Conclusion
@@ -206,11 +205,3 @@ By deploying **XGBoost** and **SVC** through an intuitive **Streamlit dashboard*
 
 ---
 
-## 7. References
-
-1. Directorate of Economics and Statistics, Ministry of Agriculture.  
-   *“Comprehensive Scheme for studying Cost of Cultivation of Principal Crops in India.”*  
-2. [Scikit-learn Documentation](https://scikit-learn.org/)  
-3. [Streamlit Documentation](https://docs.streamlit.io/)
-
----
