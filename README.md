@@ -77,10 +77,11 @@ The application follows a modular architecture.
 The `app.py` script serves as the controller, handling navigation and user input, while specialized modules (`models.py`, `eda.py`, `advanced_features.py`) manage data processing and modeling.
 
 **Flowchart:**
+<p align="center">
 <img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/4acd20a0-a5fa-4b89-89d3-f0ef9e7b0548" />
 
 *Caption: Fig 2. Data Preprocessing and Modeling Pipeline*
-
+</p>
 ---
 
 ## 3. Exploratory Data Analysis (EDA)
