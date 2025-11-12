@@ -77,3 +77,116 @@ The application follows a modular architecture.
 The `app.py` script serves as the controller, handling navigation and user input, while specialized modules (`models.py`, `eda.py`, `advanced_features.py`) manage data processing and modeling.
 
 **Flowchart:**
+*Caption: Fig 2. Data Preprocessing and Modeling Pipeline*
+
+---
+
+## 3. Exploratory Data Analysis (EDA)
+
+### 3.1 Data Distribution and Structure
+
+The dataset includes multiple crop categories, with **Cereals** and **Pulses** being most represented.  
+Major agricultural states such as **Maharashtra** and **Uttar Pradesh** contribute significantly.
+
+**Key Finding:**  
+While cultivation costs have risen linearly, **net returns** have remained volatile and stagnant.
+
+*Caption: Fig 1.1. Trend of Costs and Returns Over Time*
+
+### 3.2 Multivariate Analysis
+
+**Correlation Analysis:**  
+`cul_cost_c2 (Total Cost)` shows a strong correlation with variables like `total_human_labor_cost` and `opr_cost_fertilizer`, validating feature selection.
+
+*Caption: Fig 1.2. Correlation Matrix of Key Variables*
+
+---
+
+## 4. Modeling and Evaluation
+
+A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance metrics.
+
+### 4.1 Regression Analysis (Cost Prediction)
+
+**Goal:** Predict `prod_cost_c2`
+
+| Model | R² Score | RMSE | Key Notes |
+|-------|-----------|------|------------|
+| Multiple Linear Regression | -0.072 | – | Relationship is non-linear. Residuals show heteroscedasticity. |
+| Random Forest Regressor | 0.881 | – | Captured non-linearities effectively. |
+| **XGBoost Regressor (Best)** | **0.899** | **703.33** | Highest accuracy, lowest error. |
+
+*Caption: Fig 4.1. Actual vs Predicted Plot for XGBoost Regressor*
+
+### 4.2 Classification Analysis (Efficiency)
+
+**Goal:** Predict `Cost_Efficiency_Class (Lowest, Below Avg, Above Avg, Highest)`
+
+| Model | Accuracy | MCC | Observation |
+|--------|-----------|------|-------------|
+| XGBoost Classifier | 53.14% | – | Struggled with multi-class boundaries. |
+| **Support Vector Classifier (Best)** | **70.9%** | **0.612** | Robust and stable performance. |
+
+*Caption: Fig 8.1. ROC Curves for SVC*
+
+### 4.3 Clustering Analysis (Farm Archetypes)
+
+**Goal:** Discover unsupervised clusters using K-Means and DBSCAN.
+
+| Model | Score | Insights |
+|--------|--------|-----------|
+| K-Means (K=4) | Silhouette = 0.348 | Revealed distinct “farm archetypes.” |
+| DBSCAN | – | Useful for anomaly detection (outliers). |
+
+*Caption: Fig 11.1. DBSCAN Clustering and Outlier Detection*
+
+---
+
+## 5. Application Development (Streamlit)
+
+### 5.1 Predictive Tools
+
+The **“Predict Future Cost”** page integrates the **XGBoost Regressor**, enabling future cost forecasts (e.g., for 2026).
+
+*Caption: Fig 13.1. Future Cost Prediction Interface*
+
+### 5.2 Advanced Analytical Features
+
+#### 🧩 “What-If” Scenario Analysis
+Allows users to modify input parameters (e.g., fertilizer prices) via sliders to instantly recompute total costs.
+
+*Caption: Fig 13.2. What-If Scenario Analysis Tool*
+
+#### 💰 Profitability Calculator
+Combines cost prediction with expected yield and market price to calculate:
+
+- Projected Revenue  
+- Net Profit  
+- Break-even Price  
+
+*Caption: Fig 13.3. Profitability Calculator and Financial Outlook*
+
+---
+
+## 6. Conclusion and Future Scope
+
+### ✅ Conclusion
+The project demonstrates how **machine learning can effectively model agricultural economics.**  
+By deploying **XGBoost** and **SVC** through an intuitive **Streamlit dashboard**, we provide actionable insights for both farmers and policymakers.
+
+### 🔮 Future Scope
+
+- Integration of **real-time API data** for market prices (Mandis).  
+- Incorporation of **weather and soil datasets** for precision modeling.  
+- Deployment to **public cloud** for greater accessibility.
+
+---
+
+## 7. References
+
+1. Directorate of Economics and Statistics, Ministry of Agriculture.  
+   *“Comprehensive Scheme for studying Cost of Cultivation of Principal Crops in India.”*  
+2. [Scikit-learn Documentation](https://scikit-learn.org/)  
+3. [Streamlit Documentation](https://docs.streamlit.io/)
+
+---
