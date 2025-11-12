@@ -137,6 +137,8 @@ A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance m
 | XGBoost Classifier | 53.14% | – | Struggled with multi-class boundaries. |
 | **Support Vector Classifier (Best)** | **70.9%** | **0.612** | Robust and stable performance. |
 
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/3a138476-1732-4b90-a519-c8dcd17727de" />
+
 *Caption: Fig 8.1. ROC Curves for SVC*
 
 ### 4.3 Clustering Analysis (Farm Archetypes)
@@ -147,6 +149,8 @@ A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance m
 |--------|--------|-----------|
 | K-Means (K=4) | Silhouette = 0.348 | Revealed distinct “farm archetypes.” |
 | DBSCAN | – | Useful for anomaly detection (outliers). |
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/0b30b63a-dcbd-4cfd-b134-cab83b221061" />
 
 *Caption: Fig 11.1. DBSCAN Clustering and Outlier Detection*
 
