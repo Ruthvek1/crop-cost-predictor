@@ -122,6 +122,10 @@ A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance m
 | Random Forest Regressor | 0.881 | – | Captured non-linearities effectively. |
 | **XGBoost Regressor (Best)** | **0.899** | **703.33** | Highest accuracy, lowest error. |
 
+<p align="center">
+<img width="700" height="808" alt="image" src="https://github.com/user-attachments/assets/6d8ccb5d-3c97-4ad4-826b-9c31b7ee3226" />
+</p>
+
 *Caption: Fig 4.1. Actual vs Predicted Plot for XGBoost Regressor*
 
 ### 4.2 Classification Analysis (Efficiency)
