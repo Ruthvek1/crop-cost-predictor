@@ -164,6 +164,8 @@ A **5-Fold Cross-Validation** strategy ensured robust and unbiased performance m
 
 The **“Predict Future Cost”** page integrates the **XGBoost Regressor**, enabling future cost forecasts (e.g., for 2026).
 
+<img width="700" height="400" alt="Screenshot 2025-11-12 at 7 37 27 PM" src="https://github.com/user-attachments/assets/b35e82d4-4db6-40d3-a34d-d952446319a9" />
+
 *Caption: Fig 13.1. Future Cost Prediction Interface*
 
 ### 5.2 Advanced Analytical Features
