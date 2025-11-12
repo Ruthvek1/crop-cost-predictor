@@ -78,7 +78,7 @@ The `app.py` script serves as the controller, handling navigation and user input
 
 **Flowchart:**
 <p align="center">
-<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/4acd20a0-a5fa-4b89-89d3-f0ef9e7b0548" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/4acd20a0-a5fa-4b89-89d3-f0ef9e7b0548" />
 
 *Caption: Fig 2. Data Preprocessing and Modeling Pipeline*
 </p>
@@ -93,7 +93,7 @@ Major agricultural states such as **Maharashtra** and **Uttar Pradesh** contribu
 **Key Finding:**  
 While cultivation costs have risen linearly, **net returns** have remained volatile and stagnant.
 <p align="center">
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/4559d6b1-428a-4e63-85f3-32f8a8d855eb" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/4559d6b1-428a-4e63-85f3-32f8a8d855eb" />
 </p>
 *Caption: Fig 1.1. Trend of Costs and Returns Over Time*
 
@@ -102,7 +102,7 @@ While cultivation costs have risen linearly, **net returns** have remained volat
 **Correlation Analysis:**  
 `cul_cost_c2 (Total Cost)` shows a strong correlation with variables like `total_human_labor_cost` and `opr_cost_fertilizer`, validating feature selection.
 <p align="center">
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/e07d9724-74f0-48e8-ab73-74df063c3d21" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/e07d9724-74f0-48e8-ab73-74df063c3d21" />
 </p>
 
 *Caption: Fig 1.2. Correlation Matrix of Key Variables*
