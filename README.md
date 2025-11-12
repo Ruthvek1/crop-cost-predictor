@@ -173,6 +173,8 @@ The **“Predict Future Cost”** page integrates the **XGBoost Regressor**, ena
 #### 🧩 “What-If” Scenario Analysis
 Allows users to modify input parameters (e.g., fertilizer prices) via sliders to instantly recompute total costs.
 
+<img width="1000" height="522" alt="Screenshot 2025-11-12 at 7 40 33 PM" src="https://github.com/user-attachments/assets/243d7f99-65d5-4da6-877d-63cf1037f522" />
+
 *Caption: Fig 13.2. What-If Scenario Analysis Tool*
 
 #### 💰 Profitability Calculator
