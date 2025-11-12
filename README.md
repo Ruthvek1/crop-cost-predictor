@@ -105,6 +105,7 @@ While cultivation costs have risen linearly, **net returns** have remained volat
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/e07d9724-74f0-48e8-ab73-74df063c3d21" />
 
 *Caption: Fig 1.2. Correlation Matrix of Key Variables*
+
 </p>
 
 ## 4. Modeling and Evaluation
