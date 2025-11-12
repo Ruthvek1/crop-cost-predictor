@@ -80,7 +80,7 @@ The `app.py` script serves as the controller, handling navigation and user input
 <p align="center">
 <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/4acd20a0-a5fa-4b89-89d3-f0ef9e7b0548" />
 
-*Caption: Fig 2. Data Preprocessing and Modeling Pipeline*
+*Caption: Fig 1. High-Level System Architecture Flowchart*
 </p>
 
 ## 3. Exploratory Data Analysis (EDA)
@@ -103,11 +103,9 @@ While cultivation costs have risen linearly, **net returns** have remained volat
 `cul_cost_c2 (Total Cost)` shows a strong correlation with variables like `total_human_labor_cost` and `opr_cost_fertilizer`, validating feature selection.
 <p align="center">
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/e07d9724-74f0-48e8-ab73-74df063c3d21" />
-</p>
 
 *Caption: Fig 1.2. Correlation Matrix of Key Variables*
-
----
+</p>
 
 ## 4. Modeling and Evaluation
 
